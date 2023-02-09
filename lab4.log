@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.7)  8 FEB 2023 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.7)  9 FEB 2023 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -946,55 +946,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
- []
-
 [4 <./images/task2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
  []
 
-<./images/scopeshot.png, id=32, 803.0pt x 513.92pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--195
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
+
+ []
+
+<./images/scopeshot.png, id=36, 803.0pt x 513.92pt>
 File: ./images/scopeshot.png Graphic file (type png)
 <use ./images/scopeshot.png>
-Package pdftex.def Info: ./images/scopeshot.png  used on input line 197.
+Package pdftex.def Info: ./images/scopeshot.png  used on input line 233.
 (pdftex.def)             Requested size: 361.34666pt x 231.26186pt.
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+[6 <./images/scopeshot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-<./images/frc.png, id=39, 803.0pt x 513.92pt>
+<./images/frc.png, id=43, 803.0pt x 513.92pt>
 File: ./images/frc.png Graphic file (type png)
 <use ./images/frc.png>
-Package pdftex.def Info: ./images/frc.png  used on input line 225.
+Package pdftex.def Info: ./images/frc.png  used on input line 263.
 (pdftex.def)             Requested size: 401.49902pt x 256.95937pt.
-[6 <./images/scopeshot.png>]
-<./images/tri.png, id=44, 803.0pt x 513.92pt>
+[7 <./images/frc.png>]
+<./images/tri.png, id=49, 803.0pt x 513.92pt>
 File: ./images/tri.png Graphic file (type png)
 <use ./images/tri.png>
-Package pdftex.def Info: ./images/tri.png  used on input line 233.
+Package pdftex.def Info: ./images/tri.png  used on input line 273.
 (pdftex.def)             Requested size: 401.49902pt x 256.95937pt.
- [7 <./images/frc.png> <./images/tri.png>]
+ [8 <./images/tri.png>]
 
-LaTeX Warning: Empty bibliography on input line 248.
+LaTeX Warning: Empty bibliography on input line 288.
 
 (./lab4.aux)
 Package logreq Info: Writing requests to 'lab4.run.xml'.
@@ -1004,11 +1014,11 @@ Package logreq Info: Writing requests to 'lab4.run.xml'.
 Here is how much of TeX's memory you used:
  36373 strings out of 478287
  877828 string characters out of 5849290
- 1792602 words of memory out of 5000000
+ 1793603 words of memory out of 5000000
  54198 multiletter control sequences out of 15000+600000
  474795 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,103p,737b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,5n,103p,737b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -1019,10 +1029,10 @@ type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb>
-Output written on lab4.pdf (7 pages, 389740 bytes).
+Output written on lab4.pdf (8 pages, 393638 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

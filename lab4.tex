@@ -140,6 +140,8 @@ The AC input $v_{IN}$ was set to 0V, and adjust the potentiometer so that the DC
 \textbf{Step 4}
 The AC input $v_{IN}$ was set to a 200 m$V_{pp}$, 500 Hz sine wave. \\
 
+\newpage
+
 \textbf{Step 5-7}
 An oscilloscope screenshot was captured showing $v_{IN}$ on one channel, and $v_{OUT}$ on another. The peak to peak voltages of each are shown, 
 so that the gain $A_y$ can be calculated.\\
@@ -158,6 +160,40 @@ on an oscilloscope screenshot. \\
 \textbf{Step 0}
 
 % GET THE MATH FOR THIS
+
+Calculating $R_1$ and $R_2$ can be done using the design specifications. \\
+
+Knowing that $V_{out, min}$ = -1V, and $V_t$ = 0.609V,
+
+\begin{equation}
+    V_{G,3} < V_{out, min} + V_t = -1V + 0.609V = -0.391V
+\end{equation}
+
+\begin{equation}
+    V_{G,3} < -0.391V
+\end{equation}
+
+The gate voltage on $Q_3$ is determined by the votlage divider provided by $R_1$ and $R_2$. 
+
+\begin{equation}
+    V_{G,3} = V_{ss} + (V_{dd} - V{ss}) \frac{R_2}{R_1 + R_2} = -5V + (5V - -5V) \frac{R_2}{R_1 + R_2} = -0.391V
+\end{equation}
+
+Simplifying, we get 
+
+\begin{equation}
+    0.4609 = \frac{R_2}{R_1 + R_2}
+\end{equation}
+
+\begin{equation}
+    R_2 = 0.855 R_1
+\end{equation}
+
+Knowing this parameter, and the design specification that $R_1 || R_2 > 100 k\Omega$, an $R_1$ value was chosen out of our 
+resistor kit, and we chose 330 k$\Omega$. Using the equation above, $R_2$ can be calculated to be 282 k$\Omega$, however, we 
+used 220 k$\Omega$. \\
+
+\newpage
 
 \textbf{Step 1}
 
@@ -197,8 +233,10 @@ The following is the oscilloscope screenshot showing $v_{IN}$ and $v_{OUT}$ with
     \includegraphics[scale=0.45]{scopeshot.png}
 \end{center}
 
-\textbf{Step 6}
-The voltage gain $A_y$ is calculated using the following equation:
+\newpage
+
+\textbf{Step 6}\\
+\indent The voltage gain $A_y$ is calculated using the following equation:
 
 \begin{equation}
     A_y = \frac{v_{OUT}}{v_{IN}}
@@ -225,17 +263,19 @@ The following is the frequency response analysis for the circuit between 1 Hz an
     \includegraphics[scale=0.5]{frc.png}
 \end{center}
 
+\newpage
+
 \textbf{Step 10}
 
-The following is the largest signal aplitude that resulted in little distortion to the input signal.
+The following is the largest signal amplitude that resulted in little distortion to the input signal.
 
 \begin{center}
     \includegraphics[scale=0.5]{tri.png}
 \end{center}
 
-The input voltage shown is % INPUT VOLTAGE HERE
-, which is approximately % number here
-V above our design specification. Any signal larger than this experiences large distortion and clipping.
+The input voltage shown is 2.6V% INPUT VOLTAGE HERE
+, which is approximately 1.6V% number here
+above our design specification. Any signal larger than this experiences large distortion and clipping.
 
 \subsection*{Conclusions}
 
